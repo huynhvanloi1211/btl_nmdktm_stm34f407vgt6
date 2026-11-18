@@ -19,9 +19,13 @@
 #define MOTOR_PWM_CHANNEL           TIM_Channel_1
 
 /* Motor direction pin */
+/* Motor IN2 PWM */
 #define MOTOR_IN2_GPIO              GPIOB
 #define MOTOR_IN2_GPIO_RCC          RCC_AHB1Periph_GPIOB
 #define MOTOR_IN2_PIN               GPIO_Pin_0
+#define MOTOR_IN2_PIN_SOURCE        GPIO_PinSource0
+#define MOTOR_IN2_GPIO_AF           GPIO_AF_TIM3
+#define MOTOR_IN2_CHANNEL           TIM_Channel_3
 
 /* PWM parameters */
 #define MOTOR_PWM_FREQUENCY         20000U

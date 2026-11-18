@@ -37,3 +37,4 @@
 .\objects\main.o: ..\btl_nmdktm\motor.h
 .\objects\main.o: ..\btl_nmdktm\encoder.h
 .\objects\main.o: ..\btl_nmdktm\delay.h
+.\objects\main.o: ..\btl_nmdktm\data_logger.h

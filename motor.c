@@ -28,16 +28,12 @@ void Motor_SetDuty(uint8_t duty_percent)
 
 
 /* Stop motor: IN1 = LOW, IN2 = LOW */
-void Motor_Stop(void)
-{
-    Motor_SetDuty(0);
-}
-
-
-/* Rotate motor in one direction */
 void Motor_Forward(uint8_t duty_percent)
 {
-    GPIO_ResetBits(MOTOR_IN2_GPIO, MOTOR_IN2_PIN);
+    if (duty_percent > 100)
+        duty_percent = 100;
+
+    TIM_SetCompare3(TIM3, 0);
 
     Motor_SetDuty(duty_percent);
 }
@@ -45,7 +41,20 @@ void Motor_Forward(uint8_t duty_percent)
 
 void Motor_Reverse(uint8_t duty_percent)
 {
-    GPIO_SetBits(MOTOR_IN2_GPIO, MOTOR_IN2_PIN);
-    Motor_SetDuty(duty_percent);
+    if (duty_percent > 100)
+        duty_percent = 100;
+
+    TIM_SetCompare1(TIM3, 0);
+
+    TIM_SetCompare3(
+        TIM3,
+        ((uint32_t)duty_percent * MOTOR_PWM_MAX) / 100U
+    );
 }
 
+
+void Motor_Stop(void)
+{
+    TIM_SetCompare1(TIM3, 0);
+    TIM_SetCompare3(TIM3, 0);
+}

@@ -643,6 +643,11 @@
               <FileType>5</FileType>
               <FilePath>.\encoder.h</FilePath>
             </File>
+            <File>
+              <FileName>data_logger.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\data_logger.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -687,6 +692,11 @@
               <FileName>encoder.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\encoder.c</FilePath>
+            </File>
+            <File>
+              <FileName>data_logger.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\data_logger.c</FilePath>
             </File>
           </Files>
         </Group>
