@@ -1555,11 +1555,11 @@ I (.\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Dr
 F (.\startup\startup_stm32f40xx.s)(0x62051C83)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -IC:\download\app_study\keilc\keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 531" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f40xx.lst --xref -o .\objects\startup_stm32f40xx.o --depend .\objects\startup_stm32f40xx.d)
 F (.\pid.h)(0x6AFB8090)()
 F (.\bsp.h)(0x6AFDC3FB)()
-F (.\motor.h)(0x6AFDE6E9)()
+F (.\motor.h)(0x6AFDE993)()
 F (.\delay.h)(0x6AFDC3FB)()
 F (.\encoder.h)(0x6AFDE3D2)()
 F (.\config\stm32f4xx_conf.h)(0x6203D002)()
-F (.\src\main.c)(0x6AFDE6E9)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\inc -I .\src -I .\startup -I .\config -I .\stm_lib -I .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Include -I .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\btl_nmdktm-IC:\download\app_study\keilc\keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D_USE_WRITE="1" -DHSE_VALUE="8000000"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\src\main.c)(0x6AFDECE4)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\inc -I .\src -I .\startup -I .\config -I .\stm_lib -I .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Include -I .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\btl_nmdktm-IC:\download\app_study\keilc\keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D_USE_WRITE="1" -DHSE_VALUE="8000000"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x62062B64)
 I (.\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Include\core_cm4.h)(0x61F12857)
 I (C:\download\app_study\keilc\keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
@@ -1594,7 +1594,7 @@ I (.\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Dr
 I (.\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x61F25A30)
 I (.\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x61F25A31)
 I (.\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x61F25A36)
-I (..\btl_nmdktm\motor.h)(0x6AFDE6E9)
+I (..\btl_nmdktm\motor.h)(0x6AFDE993)
 I (..\btl_nmdktm\encoder.h)(0x6AFDE3D2)
 I (..\btl_nmdktm\delay.h)(0x6AFDC3FB)
 F (.\pid.c)(0x6AFB8090)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\inc -I .\src -I .\startup -I .\config -I .\stm_lib -I .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Include -I .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\btl_nmdktm-IC:\download\app_study\keilc\keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D_USE_WRITE="1" -DHSE_VALUE="8000000"-o .\objects\pid.o --omf_browse .\objects\pid.crf --depend .\objects\pid.d)
@@ -1636,8 +1636,8 @@ I (.\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Dr
 I (.\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x61F25A30)
 I (.\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x61F25A31)
 I (.\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x61F25A36)
-F (.\motor.c)(0x6AFDE6E9)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\inc -I .\src -I .\startup -I .\config -I .\stm_lib -I .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Include -I .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\btl_nmdktm-IC:\download\app_study\keilc\keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D_USE_WRITE="1" -DHSE_VALUE="8000000"-o .\objects\motor.o --omf_browse .\objects\motor.crf --depend .\objects\motor.d)
-I (motor.h)(0x6AFDE6E9)
+F (.\motor.c)(0x6AFDE993)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\inc -I .\src -I .\startup -I .\config -I .\stm_lib -I .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Include -I .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\btl_nmdktm-IC:\download\app_study\keilc\keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D_USE_WRITE="1" -DHSE_VALUE="8000000"-o .\objects\motor.o --omf_browse .\objects\motor.crf --depend .\objects\motor.d)
+I (motor.h)(0x6AFDE993)
 I (.\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x62062B64)
 I (.\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Include\core_cm4.h)(0x61F12857)
 I (C:\download\app_study\keilc\keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)

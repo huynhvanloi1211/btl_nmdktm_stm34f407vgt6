@@ -43,4 +43,9 @@ void Motor_Forward(uint8_t duty_percent)
 }
 
 
+void Motor_Reverse(uint8_t duty_percent)
+{
+    GPIO_SetBits(MOTOR_IN2_GPIO, MOTOR_IN2_PIN);
+    Motor_SetDuty(duty_percent);
+}
 
