@@ -1,4 +1,4 @@
-.\objects\main.o: src\main.c
+.\objects\main.o: main.c
 .\objects\main.o: .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 .\objects\main.o: .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\CMSIS\Include\core_cm4.h
 .\objects\main.o: C:\download\app_study\keilc\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -34,7 +34,7 @@
 .\objects\main.o: .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h
 .\objects\main.o: .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
 .\objects\main.o: .\STD_lib\STM32F4xx_DSP_StdPeriph_Lib_V1.9.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
-.\objects\main.o: ..\btl_nmdktm\motor.h
-.\objects\main.o: ..\btl_nmdktm\encoder.h
-.\objects\main.o: ..\btl_nmdktm\delay.h
-.\objects\main.o: ..\btl_nmdktm\data_logger.h
+.\objects\main.o: motor.h
+.\objects\main.o: encoder.h
+.\objects\main.o: delay.h
+.\objects\main.o: data_logger.h

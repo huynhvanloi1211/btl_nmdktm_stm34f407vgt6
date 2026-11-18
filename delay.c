@@ -14,6 +14,12 @@ void SysTick_Handler(void)
     system_tick++;
 }
 
+/* Tra ve so ms ke tu luc Delay_Init() */
+uint32_t Delay_GetTick(void)
+{
+    return system_tick;
+}
+
 void Delay_ms(uint32_t milliseconds)
 {
     uint32_t start_tick = system_tick;

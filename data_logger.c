@@ -44,4 +44,10 @@ void DataLogger_Record(
 
     /* Increase index after writing all fields */
     Motor_Log_Count++;
+
+    /* Buffer vua day -> bao ket thuc */
+    if (Motor_Log_Count >= LOG_MAX_SAMPLES)
+    {
+        Motor_Log_Finished = 1;
+    }
 }

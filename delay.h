@@ -5,5 +5,6 @@
 
 void Delay_Init(void);
 void Delay_ms(uint32_t milliseconds);
+uint32_t Delay_GetTick(void);
 
 #endif

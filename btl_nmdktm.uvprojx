@@ -619,11 +619,6 @@
           <GroupName>inc</GroupName>
           <Files>
             <File>
-              <FileName>pid.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\pid.h</FilePath>
-            </File>
-            <File>
               <FileName>bsp.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\bsp.h</FilePath>
@@ -634,11 +629,6 @@
               <FilePath>.\motor.h</FilePath>
             </File>
             <File>
-              <FileName>delay.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\delay.h</FilePath>
-            </File>
-            <File>
               <FileName>encoder.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\encoder.h</FilePath>
@@ -647,6 +637,11 @@
               <FileName>data_logger.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\data_logger.h</FilePath>
+            </File>
+            <File>
+              <FileName>delay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\delay.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -664,16 +659,6 @@
           <GroupName>src</GroupName>
           <Files>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\src\main.c</FilePath>
-            </File>
-            <File>
-              <FileName>pid.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\pid.c</FilePath>
-            </File>
-            <File>
               <FileName>bsp.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\bsp.c</FilePath>
@@ -684,11 +669,6 @@
               <FilePath>.\motor.c</FilePath>
             </File>
             <File>
-              <FileName>delay.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\delay.c</FilePath>
-            </File>
-            <File>
               <FileName>encoder.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\encoder.c</FilePath>
@@ -697,6 +677,16 @@
               <FileName>data_logger.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\data_logger.c</FilePath>
+            </File>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
             </File>
           </Files>
         </Group>
